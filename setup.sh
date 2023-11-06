@@ -1,5 +1,5 @@
 #!/bin/bash
 
-for script in ~/.dotfiles/scripts/*; do
+for script in ./scripts/*; do
   bash "$script"
 done
